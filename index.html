@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo Application</title>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+</head>
+<body>
+<div class="container">
+    <form class="row">
+        <div class="col-md-5">
+            <input type="text" class="form-control" id="task" />
+            <div id="error"></div>
+        </div>
+        <div class="col-md-2">
+            <input type="button" class="btn btn-success" value="Add" id="addTask" />
+        </div>
+    </form>
+    <div class="row">
+        <div class="col-md-5">
+             <div id="taskContainer"></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
